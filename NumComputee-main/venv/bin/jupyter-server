@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/nashandsouza/Documents/UNIVERSITY/Master's/Year 1 Sem 1/Programming for AI & ML/Assignment 1/num_com/NumComputee-main/venv/bin/python3.11" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from jupyter_server.serverapp import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

@@ -21,7 +21,8 @@ def test_euclidean_distance_simple():
     x2 = np.array([4.0, 6.0])
     
     result = euclidean_distance(x1, x2)
-    expected = np.sqrt(25 + 16)  # sqrt(41)
+    # expected = np.sqrt(25 + 16)  # sqrt(41)
+    expected = 5.0
     assert np.isclose(result, expected)
 
 

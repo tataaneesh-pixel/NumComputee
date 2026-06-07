@@ -17,6 +17,8 @@ from __future__ import annotations
 import numpy as np
 
 
+#A2.2 commit test?
+
 def _to_1d_array(a, name: str) -> np.ndarray:
     """
     Convert input to a 1D NumPy array and validate dimensionality.
